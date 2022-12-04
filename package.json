@@ -1,6 +1,7 @@
 {
   "name": "advent-of-code-2022",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "bash ./scripts/start.sh",
     "build": "rimraf ./build && tsc"
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@gravity-ui/eslint-config": "^1.0.2",
     "@gravity-ui/prettier-config": "^1.0.1",
-    "@gravity-ui/tsconfig": "^1.0.0"
+    "@gravity-ui/tsconfig": "^1.0.0",
+    "@types/node": "^18.11.10"
   }
 }
