@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bash ./scripts/start.sh",
+    "build": "rimraf ./build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korvin89/advent-of-code-2022.git"
+  },
+  "author": "korvin89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korvin89/advent-of-code-2022/issues"
+  },
+  "homepage": "https://github.com/korvin89/advent-of-code-2022#readme",
+  "devDependencies": {
+    "@gravity-ui/eslint-config": "^1.0.2",
+    "@gravity-ui/prettier-config": "^1.0.1",
+    "@gravity-ui/tsconfig": "^1.0.0"
+  }
+}

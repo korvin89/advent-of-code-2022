@@ -1,0 +1,7 @@
+{
+    "extends": ["@gravity-ui/eslint-config", "@gravity-ui/eslint-config/server"],
+    "root": true,
+    "rules": {
+        "no-console": 0
+    }
+}
