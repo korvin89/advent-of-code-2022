@@ -1,10 +1,8 @@
 file=day$1.js
 
-# if [ ! -d "build" ]; then
-#     npm run build
-# fi
-
-npm run build
+if [ ! -d "build" ]; then
+    npm run build
+fi
 
 if [[ -n $1 ]]; then
     node build/$file 
