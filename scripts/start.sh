@@ -1,6 +1,6 @@
 file=day$1.js
 
-if [ ! -d "build" ]; then
+if [ ! -d "build" -o "$ENV" == "development" ]; then
     npm run build
 fi
 
